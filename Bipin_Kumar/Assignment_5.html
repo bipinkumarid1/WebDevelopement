@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstrating position</title>
+    <style>
+        h3, p{
+            border: 2px solid;
+            text-align: center;
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #60f2e5;
+        }
+        .container{
+            border: 2px solid;
+            background-color: #e1b8b8;
+            margin 10px;
+            height: 600px;
+            overflow: auto;
+            position: relative;
+
+        }
+        .Block2{
+            border: 2px solid;
+            margin: 3px;
+            width: 100px;
+            height: 120px;
+        }
+        #Box1{
+            background-color: aqua;
+            position: relative;
+            left: 20px;
+            top: 20px;
+        }
+        #Box2{
+            background-color: brown;
+            position: absolute;
+            left: 60px;
+            top: 90px;
+        }
+        #Box3{
+            background-color: chartreuse;
+            position: absolute;
+            right: 60px;
+            top: 90px;
+            z-index: 2;
+        }
+        #Box4{
+            background-color: deeppink;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            z-index: 1;
+        }
+        #Box5{
+            background-color: firebrick;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 2;
+        }
+        #Box6{
+            background-color: green;
+            position: absolute;
+            bottom: 90px;
+            right: 60px;
+        }
+        #Box7{
+            background-color: hotpink;
+            position: absolute ;
+            bottom: 20px;
+            left: 20px;
+            z-index: 2;
+        }
+        #Box8{
+            background-color: indigo;
+            position: absolute;
+            bottom: 90px;
+            left: 60px;
+        }
+        #Box9{
+            background-color: khaki;
+            position: absolute;
+            bottom: 171px;
+            left: 556px;
+        }
+        #Box10{
+            background-color: lightseagreen;
+            position: absolute;
+            bottom: 171px;
+            right: 556px;
+        }
+        #Box11{
+            background-color: maroon;
+            position: absolute;
+            top: 171px;
+            left: 556px;
+        }
+        #Box12{
+            background-color: navy;
+            position: absolute;
+            top: 171px;
+            right: 556px;
+        }
+        #Box13{
+            background-color: orange;
+            position: absolute;
+            position: absolute;
+            top: 230px;
+            left: 610px;
+        }
+    </style>
+</head>
+<body>
+    <h3>BLOCK GAME</h3>
+    <div class="container">
+        <div class="Block2" id="Box1">Block 1</div>
+        <div class="Block2" id="Box2">Block 2</div>
+        <div class="Block2" id="Box3">Block 3</div>
+        <div class="Block2" id="Box4">Block 4</div>
+        <div class="Block2" id="Box5">Block 5</div>
+        <div class="Block2" id="Box6">Block 6</div>
+        <div class="Block2" id="Box7">Block 7</div>
+        <div class="Block2" id="Box8">Block 8</div>
+        <div class="Block2" id="Box9">Block 9</div>
+        <div class="Block2" id="Box10">Block 10</div>
+        <div class="Block2" id="Box11">Block 11</div>
+        <div class="Block2" id="Box12">Block 12</div>
+        <div class="Block2" id="Box13">Block 13</div>
+    </div>
+    <div>
+        <p>@copyright 2021</p>
+    </div>
+</body>
+</html>
